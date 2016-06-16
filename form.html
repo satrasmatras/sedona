@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sedona Form</title>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles_min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!--HEADER-->
+			<div class="wrapper-header clearfix">
+				<header class="main-header no-js">
+					<nav class="left-nav">
+						<ul>
+							 <li class="active">
+								<a href="#">Информация</a>
+							 </li>
+							<li>
+								<a href="#">Фото и видео</a>
+							</li>
+							  
+						</ul>
+					</nav>
+					
+					<div class="logo">
+						<a href="./index.html">
+							<img src="./img/logo.png" alt="Седона" width="138" height="70" >
+						</a>
+					</div>
+					
+					<nav class="right-nav">
+						<ul>
+							<li>
+								<a href="#">Карта штата</a>
+							</li>
+							<li>
+								<a href="./hotels.html">Гостиницы</a>
+							</li>  
+						</ul>
+					</nav>
+				</header>
+			</div>
+			<!--HEADER END-->
+			<div class="no-js_form">
+				<!--FORM-->
+				<div class="modale-content no-js">
+					<form class="form no-js" action="#">
+						<div class="begin">
+							<label for="begin">Дата заезда:</label>
+							<input type="text" name="begin" id="begin" placeholder="21 Апреля 2014">
+							<a href="#" class="icon-form icon-calendar"></a>	
+						</div>
+						<div class="end">
+							<label for="end">Дата выезда:</label>
+							<input type="text" name="end" id="end" placeholder="4 Июля 2014">
+							<a href="#" class="icon-form icon-calendar"></a>
+						</div>
+						<div class="number-input adults">
+							<label for="adults">Взрослые:</label>
+							<div class="button-container clearfix">
+								<button type="button" class="form-btn icon-minus"></button>
+								<input type="text" name="adults" id="adults" value="2">
+								<button type="button" class="form-btn icon-plus"></button>
+							</div>
+						</div>
+						<div class="number-input childs">
+							<label class="last" for="childs">Дети:</label>
+							<div class="button-container clearfix">
+								<button type="button" class="form-btn icon-minus"></button>
+								<input type="text" name="childs" id="childs" value="0">
+								<button type="button" class="form-btn icon-plus"></button>
+								</div>
+						</div>
+						<input type="submit" class="btn btn-blue" value="Найти">
+					</form>
+				</div>
+				<!--FORM-END-->
+			</div>
+
+			<!--FOOTER-->
+			<div class="wrapper clearfix">
+				<footer class="main-footer">
+						<div class="footer-item footer-tag">
+							<h3><a href="#">#Visitsedona</a></h3>
+						</div>
+						<div class="footer-item footer-social">
+							<a href="https://twitter.com/" class="icon icon-twitter" title="Twitter">
+								Twitter
+							</a>
+							<a href="https://facebook.com" class="icon icon-facebook" title="Facebook">
+								Facebook
+							</a>
+							<a href="https://youtube.com" class="icon icon-youtube" title="Youtube">
+								Youtube
+							</a>
+						</div>
+						<div class="footer-item footer-copyright">
+							<span>Website by</span>
+							<a href="https://htmlacademy.ru" class="htmlacademy" title="htmlacademy">
+								Html academy
+							</a>
+						</div>
+				</footer>
+			<!--FOOTER END-->
+			</div>
+		</div>
+	</body>
+</html>
